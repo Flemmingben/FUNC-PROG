@@ -1,0 +1,19 @@
+2022-01-17 15:04:06,305 [nREPL-session-a59a644b-c818-43cf-9029-5783319a7ee4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-17 15:04:06,601 [nREPL-session-a59a644b-c818-43cf-9029-5783319a7ee4] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-17 15:08:19,666 [nREPL-session-a59a644b-c818-43cf-9029-5783319a7ee4] INFO  luminus.http-server - HTTP server stopped 
+2022-01-17 15:08:19,666 [nREPL-session-a59a644b-c818-43cf-9029-5783319a7ee4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-17 15:29:42,849 [nREPL-session-dffa16d5-7c09-4770-a107-c2b0fe1b5c98] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-17 15:29:43,153 [nREPL-session-dffa16d5-7c09-4770-a107-c2b0fe1b5c98] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-17 15:36:03,666 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-17 15:36:03,667 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-17 15:50:48,611 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m5s575ms). 
+2022-01-17 15:51:53,866 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s256ms). 
+2022-01-17 15:54:52,920 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m59s54ms). 
+2022-01-17 16:19:29,093 [nREPL-session-dffa16d5-7c09-4770-a107-c2b0fe1b5c98] INFO  luminus.http-server - HTTP server stopped 
+2022-01-17 16:19:29,094 [nREPL-session-dffa16d5-7c09-4770-a107-c2b0fe1b5c98] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 

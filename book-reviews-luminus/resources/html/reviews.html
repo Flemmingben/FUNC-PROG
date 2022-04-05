@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block content %}
+{% style """/css/mystyles.css" %}
+
+<!-- see base.html for the styling of this form -->
+<div style="padding:15px;">
+    <form method="post" action="reviews" class="settings">
+        {% csrf-field %}
+        <table>
+            <tr>
+                <td>
+                    <label for="book_id">Book ID#</label>
+                    <input type="text" id="book_id" name="book_id" value="">
+                    {% if errors.book_id %}
+                    <span class="errors">
+                            {{errors.book_id|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reviewer">Reviewer</label>
+                    <input type="text" id="reviewer" name="reviewer" value="">
+                    {% if errors.reviewer %}
+                    <span class="errors">
+                            {{errors.reviewer|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="review">Review</label>
+                    <input type="text" id="review" name="review" value="">
+                    {% if errors.review %}
+                    <span class="errors">
+                            {{errors.review|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <!--            <tr>-->
+            <!--                <td>-->
+            <!--                    <label for="published">Published</label>-->
+            <!--                    <input type="text" id="published" name="published" value="">-->
+            <!--                </td>-->
+            <!--            </tr>-->
+            <tr>
+                <td> <input type="submit" value="Submit"> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<table>
+    <tr>
+        <th>Book</th>
+        <th>Reviewer</th>
+        <th>Review</th>
+        <th>Published on</th>
+    </tr>
+    {% for item in items %}
+    <tr>
+        <td>{{item.title}}</td>
+        <td>{{item.reviewer}}</td>
+        <td>{{item.review}}</td>
+        <td>{{item.published}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<div class="divTable styledTable">
+    <div class="divTableHeading">
+        <div class="divTableRow">
+            <div class="divTableHead">Book</div>
+            <div class="divTableHead">Reviewer</div>
+            <div class="divTableHead">Review</div>
+            <div class="divTableHead">Published on</div>
+        </div>
+    </div>
+    <div class="divTableBody">
+        {% for item in items %}
+        <div class="divTableRow">
+            <div class="divTableCell">{{item.title}}</div>
+            <div class="divTableCell">{{item.reviewer}}</div>
+            <div class="divTableCell">{{item.review}}</div>
+            <div class="divTableCell">{{item.published}}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

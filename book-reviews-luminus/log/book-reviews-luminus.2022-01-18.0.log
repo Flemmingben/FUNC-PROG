@@ -1,0 +1,57 @@
+2022-01-18 10:57:16,724 [nREPL-session-be403c43-b693-43f9-8d22-6c5c310f6643] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 10:57:17,050 [nREPL-session-be403c43-b693-43f9-8d22-6c5c310f6643] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-18 11:51:42,395 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s81ms). 
+2022-01-18 12:04:15,787 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m3s353ms). 
+2022-01-18 12:04:45,587 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s800ms), soft-evicting connections from pool. 
+2022-01-18 12:25:05,044 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:25:05,046 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:25:05,247 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:25:05,247 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:25:27,285 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:25:27,286 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:27:04,794 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:27:04,795 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:29:55,673 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:29:55,674 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:31:57,204 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:31:57,205 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:32:26,510 [worker-2] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:32:26,510 [worker-2] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:32:54,186 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:32:54,186 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:34:37,252 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:34:37,253 [worker-3] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:54:36,864 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:54:36,865 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 12:56:18,255 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-18 12:56:18,256 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-18 13:49:43,701 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s365ms). 
+2022-01-18 13:55:50,364 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m36s655ms). 
+2022-01-18 13:57:06,471 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s107ms). 
+2022-01-18 13:58:02,732 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s261ms). 
+2022-01-18 14:06:29,537 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m26s804ms). 
+2022-01-18 16:35:23,959 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m23s209ms). 
+2022-01-18 16:40:19,749 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m55s793ms). 

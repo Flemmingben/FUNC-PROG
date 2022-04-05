@@ -1,0 +1,235 @@
+2022-01-28 12:46:29,854 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 12:46:30,133 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:06:25,286 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:06:25,288 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:06:28,629 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:06:28,763 [nREPL-session-660c5c49-b1f4-4c7e-b4a5-81a65440a7e7] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:08:23,456 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:08:23,708 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:08:30,796 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:08:30,824 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x5967754d /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:08:30,831 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:08:50,469 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:08:50,472 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x538733d5 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:08:50,474 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:08:54,501 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:08:54,502 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:08:57,308 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:08:57,411 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:08:59,557 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:08:59,560 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.database - creating migration table 'schema_migrations' 
+2022-01-28 13:08:59,569 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x4073de92 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:08:59,571 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:08:59,571 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:08:59,579 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 3 up migrations 
+2022-01-28 13:08:59,585 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - failed to execute command:
+ insert into user (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ 
+2022-01-28 13:08:59,586 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - Table "USER" not found; SQL statement:
+insert into user (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42102-200] 
+2022-01-28 13:08:59,586 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.database - Migration add-users-table failed because Table "USER" not found; SQL statement:
+insert into user (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42102-200] backing out 
+2022-01-28 13:08:59,587 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 1 down migrations 
+2022-01-28 13:08:59,595 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:09:52,794 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:09:52,797 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x695f2c37 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:09:52,799 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:09:52,799 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:09:52,800 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Migration reserved by another instance. Ignoring. 
+2022-01-28 13:09:52,800 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:10:00,800 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:10:00,801 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:10:17,640 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:10:17,766 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:10:20,822 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:10:20,824 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.database - creating migration table 'schema_migrations' 
+2022-01-28 13:10:20,826 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x3c108517 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:10:20,828 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:10:20,828 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:10:20,829 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 3 up migrations 
+2022-01-28 13:10:20,834 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - failed to execute command:
+ insert into users (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ 
+2022-01-28 13:10:20,834 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - Column "PWD" not found; SQL statement:
+insert into users (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42122-200] 
+2022-01-28 13:10:20,834 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.database - Migration add-users-table failed because Column "PWD" not found; SQL statement:
+insert into users (first_name, last_name, email, pwd)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42122-200] backing out 
+2022-01-28 13:10:20,834 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 1 down migrations 
+2022-01-28 13:10:20,836 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:10:48,336 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:10:48,337 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:10:56,730 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:10:56,806 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:10:59,022 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:10:59,024 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.database - creating migration table 'schema_migrations' 
+2022-01-28 13:10:59,026 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x41d526d8 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:10:59,028 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:10:59,028 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:10:59,029 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 3 up migrations 
+2022-01-28 13:10:59,033 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - failed to execute command:
+ insert into users (first_name, last_name, email, pass)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ 
+2022-01-28 13:10:59,033 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - Column "Fred" not found; SQL statement:
+insert into users (first_name, last_name, email, pass)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42122-200] 
+2022-01-28 13:10:59,033 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.database - Migration add-users-table failed because Column "Fred" not found; SQL statement:
+insert into users (first_name, last_name, email, pass)
+values("Fred", "Williams", "fred@fred.com", "fred123");
+
+ [42122-200] backing out 
+2022-01-28 13:10:59,033 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 1 down migrations 
+2022-01-28 13:10:59,035 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:13:11,035 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:13:11,035 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:13:13,779 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:13:13,850 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:13:16,111 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:13:16,113 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.database - creating migration table 'schema_migrations' 
+2022-01-28 13:13:16,116 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x23d4295d /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:13:16,117 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:13:16,117 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:13:16,118 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 3 up migrations 
+2022-01-28 13:13:16,120 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - failed to execute command:
+ insert into users (first_name, last_name, email, pass)
+values ('Fred', 'Williams', 'fred@fred.com', 'fred123');
+
+ 
+2022-01-28 13:13:16,120 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.migration.sql - NULL not allowed for column "ID"; SQL statement:
+insert into users (first_name, last_name, email, pass)
+values ('Fred', 'Williams', 'fred@fred.com', 'fred123'); [23502-200] 
+2022-01-28 13:13:16,120 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] ERROR migratus.database - Migration add-users-table failed because NULL not allowed for column "ID"; SQL statement:
+insert into users (first_name, last_name, email, pass)
+values ('Fred', 'Williams', 'fred@fred.com', 'fred123'); [23502-200] backing out 
+2022-01-28 13:13:16,121 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 1 down migrations 
+2022-01-28 13:13:16,122 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:13:52,886 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:13:52,887 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:13:56,552 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:13:56,623 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:13:58,162 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Starting migrations 
+2022-01-28 13:13:58,164 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.database - creating migration table 'schema_migrations' 
+2022-01-28 13:13:58,167 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migrations - Looking for migrations in #object[java.io.File 0x1f94f034 /Users/cmscb/code/funcprog/book-reviews-luminus/resources/migrations] 
+2022-01-28 13:13:58,169 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Running up for [20220109150957 20220109154220 20220109154231] 
+2022-01-28 13:13:58,169 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109150957-add-users-table 
+2022-01-28 13:13:58,170 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 3 up migrations 
+2022-01-28 13:13:58,176 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.database - marking 20220109150957 complete 
+2022-01-28 13:13:58,178 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109154220-books 
+2022-01-28 13:13:58,179 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 2 up migrations 
+2022-01-28 13:13:58,180 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.database - marking 20220109154220 complete 
+2022-01-28 13:13:58,181 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Up 20220109154231-reviews 
+2022-01-28 13:13:58,182 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.migration.sql - found 4 up migrations 
+2022-01-28 13:13:58,184 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] DEBUG migratus.database - marking 20220109154231 complete 
+2022-01-28 13:13:58,185 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  migratus.core - Ending migrations 
+2022-01-28 13:15:01,293 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:15:01,293 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:15:06,125 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:15:06,192 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:20:30,591 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:20:30,591 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:20:30,866 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:20:30,924 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:20:46,131 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:20:46,132 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:20:48,672 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:20:48,731 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:21:03,606 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 13:21:03,607 [nREPL-session-43707904-524c-46f1-aa6d-eb5301b7a06f] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 13:21:49,264 [nREPL-session-42e84109-b046-4c07-8931-bd043204ad1d] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 13:21:49,544 [nREPL-session-42e84109-b046-4c07-8931-bd043204ad1d] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 13:22:05,796 [worker-1] INFO  book-reviews-luminus.routes.home - this is a test 
+2022-01-28 13:22:12,534 [worker-3] DEBUG book-reviews-luminus.routes.home - {:items [{:id 1, :book_id 1, :reviewer Chris B, :published 2020-02-13, :review Shorter than usual from IS. All killer, no filler} {:id 2, :book_id 1, :reviewer Mary, :published 2020-02-17, :review Not Bad. Cheap :-)} {:id 3, :book_id 1, :reviewer Jane, :published 2020-02-17, :review Expensive}]} 
+2022-01-28 14:28:29,525 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:28:29,920 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:28:43,759 [worker-3] INFO  book-reviews-luminus.routes.home - this is a test 
+2022-01-28 14:28:52,115 [worker-1] DEBUG book-reviews-luminus.routes.home - {:items [{:id 1, :book_id 1, :reviewer Chris B, :published 2020-02-13, :review Shorter than usual from IS. All killer, no filler} {:id 2, :book_id 1, :reviewer Mary, :published 2020-02-17, :review Not Bad. Cheap :-)} {:id 3, :book_id 1, :reviewer Jane, :published 2020-02-17, :review Expensive}]} 
+2022-01-28 14:29:03,896 [worker-3] DEBUG book-reviews-luminus.routes.home - {:items [{:id 1, :book_id 1, :reviewer Chris B, :published 2020-02-13, :review Shorter than usual from IS. All killer, no filler} {:id 2, :book_id 1, :reviewer Mary, :published 2020-02-17, :review Not Bad. Cheap :-)} {:id 3, :book_id 1, :reviewer Jane, :published 2020-02-17, :review Expensive} {:id 4, :book_id 1, :reviewer scsf, :published xzczx, :review xcxz}]} 
+2022-01-28 14:29:05,601 [worker-4] DEBUG book-reviews-luminus.routes.home - {:items [{:id 1, :book_id 1, :reviewer Chris B, :published 2020-02-13, :review Shorter than usual from IS. All killer, no filler} {:id 2, :book_id 1, :reviewer Mary, :published 2020-02-17, :review Not Bad. Cheap :-)} {:id 3, :book_id 1, :reviewer Jane, :published 2020-02-17, :review Expensive} {:id 4, :book_id 1, :reviewer scsf, :published xzczx, :review xcxz}]} 
+2022-01-28 14:30:19,083 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 14:30:19,083 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 14:30:22,410 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:30:22,569 [nREPL-session-7267adae-7b95-4db7-90e3-eb83f5d331b4] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:30:29,420 [worker-1] DEBUG book-reviews-luminus.routes.home - {:items [{:id 1, :book_id 1, :reviewer Chris B, :published 2020-02-13, :review Shorter than usual from IS. All killer, no filler} {:id 2, :book_id 1, :reviewer Mary, :published 2020-02-17, :review Not Bad. Cheap :-)} {:id 3, :book_id 1, :reviewer Jane, :published 2020-02-17, :review Expensive} {:id 4, :book_id 1, :reviewer scsf, :published xzczx, :review xcxz}]} 
+2022-01-28 14:30:59,950 [nREPL-session-a102303b-c110-4527-aee4-2412c526464d] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:31:00,327 [nREPL-session-a102303b-c110-4527-aee4-2412c526464d] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:31:09,301 [worker-1] DEBUG book-reviews-luminus.routes.home - {:items [{:title Engineering Software Products, :review Shorter than usual from IS. All killer, no filler, :reviewer Chris B, :published 2020-02-13} {:title Engineering Software Products, :review Not Bad. Cheap :-), :reviewer Mary, :published 2020-02-17} {:title Engineering Software Products, :review Expensive, :reviewer Jane, :published 2020-02-17} {:title Engineering Software Products, :review xcxz, :reviewer scsf, :published xzczx}]} 
+2022-01-28 14:32:56,277 [nREPL-session-60d0b8ac-6a5b-4f2d-90a0-c19479ad7e5c] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:32:56,583 [nREPL-session-60d0b8ac-6a5b-4f2d-90a0-c19479ad7e5c] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:35:10,736 [worker-2] INFO  book-reviews-luminus.routes.home - this is a test 
+2022-01-28 14:38:36,435 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 14:38:36,435 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:41:33,740 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:41:34,067 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:43:15,764 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 14:43:15,764 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 14:43:18,309 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:43:18,482 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 14:43:30,905 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  luminus.http-server - HTTP server stopped 
+2022-01-28 14:43:30,906 [nREPL-session-b019db6e-4c14-4e67-ba7c-1ae1ae3659fb] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-28 14:43:55,641 [nREPL-session-faeb3c4b-ac90-4631-ae40-e9b7d94dd4b6] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 14:43:56,013 [nREPL-session-faeb3c4b-ac90-4631-ae40-e9b7d94dd4b6] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 15:08:07,810 [nREPL-session-ace89471-94fe-4c24-87fa-0dffd583b564] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 15:08:08,129 [nREPL-session-ace89471-94fe-4c24-87fa-0dffd583b564] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 15:10:36,603 [nREPL-session-d7853b9a-a957-4f96-80b6-2c4d0a466fe0] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 15:10:36,958 [nREPL-session-d7853b9a-a957-4f96-80b6-2c4d0a466fe0] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 15:11:21,075 [nREPL-session-c2b47fe2-fad9-4559-9f55-cd400da86f73] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 15:11:21,418 [nREPL-session-c2b47fe2-fad9-4559-9f55-cd400da86f73] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-28 15:13:54,075 [nREPL-session-84fa40ea-1314-4ee1-878d-6be5f7c2caea] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-28 15:13:54,415 [nREPL-session-84fa40ea-1314-4ee1-878d-6be5f7c2caea] INFO  luminus.http-server - starting HTTP server on port 3000 

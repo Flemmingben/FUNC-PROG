@@ -1,0 +1,32 @@
+2022-01-21 10:36:28,460 [nREPL-session-911b1f94-32ba-4355-aaa5-7349e51d9222] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:36:28,770 [nREPL-session-911b1f94-32ba-4355-aaa5-7349e51d9222] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-21 10:39:13,393 [nREPL-session-833d7f24-180a-4dda-a768-c7f8e04878d8] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:39:13,675 [nREPL-session-833d7f24-180a-4dda-a768-c7f8e04878d8] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-21 10:41:54,266 [worker-2] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-21 10:41:54,267 [worker-2] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:43:41,519 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-21 10:43:41,520 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:44:23,093 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-21 10:44:23,094 [worker-4] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:50:15,282 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus has shut down successfully]=- 
+2022-01-21 10:50:15,283 [worker-1] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:54:38,176 [nREPL-session-7f203504-8a9f-4b21-82bc-654479068002] INFO  book-reviews-luminus.env - 
+-=[book-reviews-luminus started successfully using the development profile]=- 
+2022-01-21 10:54:38,504 [nREPL-session-7f203504-8a9f-4b21-82bc-654479068002] INFO  luminus.http-server - starting HTTP server on port 3000 
+2022-01-21 11:43:45,608 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s953ms). 
+2022-01-21 11:51:55,570 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m9s964ms). 
+2022-01-21 12:02:49,204 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s551ms). 
+2022-01-21 12:05:48,585 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m59s381ms). 
+2022-01-21 12:22:31,541 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m42s894ms). 
+2022-01-21 13:02:43,306 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m11s583ms). 
+2022-01-21 13:10:44,925 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m1s619ms). 

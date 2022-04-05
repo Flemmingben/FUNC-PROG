@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+{% style """/css/mystyles.css" %}
+
+<!-- see base.html for the styling of this form -->
+<div style="padding:15px;">
+    <form method="post" action="users" class="settings">
+        {% csrf-field %}
+        <table>
+            <tr>
+                <td>
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name" name="first_name" value="">
+                    {% if errors.first_name %}
+                        <span class="errors">
+                            {{errors.first_name|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="last_name">Family name</label>
+                    <input type="text" id="last_name" name="last_name" value="">
+                    {% if errors.last_name %}
+                        <span class="errors">
+                            {{errors.last_name|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" name="email" value="">
+                    {% if errors.email %}
+                        <span class="errors">
+                            {{errors.email|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                    <input type="text" id="pass" name="pass" value="">
+                    {% if errors.pass %}
+                        <span class="errors">
+                            {{errors.pass|join}}
+                        </span>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Submit"> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<table>
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+    {% for item in items %}
+    <tr>
+        <td>{{item.first_name}}</td>
+        <td>{{item.last_name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.pass}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
